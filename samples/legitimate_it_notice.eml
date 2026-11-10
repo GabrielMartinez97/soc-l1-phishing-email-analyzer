@@ -1,0 +1,27 @@
+Return-Path: <soporte-ti@empresa-oficial.com>
+Received: from mail-out.empresa-oficial.com (mail-out.empresa-oficial.com [10.10.20.10])
+    by mx.empresa-oficial.com with ESMTP id 1029B44C
+    for <empleado.contabilidad@empresa-oficial.com>; Mon, 09 Nov 2026 10:00:00 +0000
+Authentication-Results: mx.empresa-oficial.com;
+    spf=pass (sender IP is 10.10.20.10) smtp.mailfrom=empresa-oficial.com;
+    dkim=pass header.d=empresa-oficial.com;
+    dmarc=pass action=none header.from=empresa-oficial.com
+From: "Mesa de Ayuda TI" <soporte-ti@empresa-oficial.com>
+Reply-To: "Mesa de Ayuda TI" <soporte-ti@empresa-oficial.com>
+To: <empleado.contabilidad@empresa-oficial.com>
+Subject: Recordatorio mensual de mantenimiento programado VPN
+Date: Mon, 09 Nov 2026 10:00:00 +0000
+Message-ID: <20261109100000.1029@empresa-oficial.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <p>Hola equipo,</p>
+    <p>Les recordamos que este sábado a las 22:00 hrs se realizará el mantenimiento
+    programado de la plataforma VPN interna.</p>
+    <p>Pueden consultar el calendario en la intranet:
+    <a href="https://intranet.empresa-oficial.com/mantenimiento">https://intranet.empresa-oficial.com/mantenimiento</a></p>
+  </body>
+</html>
